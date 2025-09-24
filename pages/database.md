@@ -1,10 +1,34 @@
-# Front page
+# Descripción
+El sistema de control de pases(OPE) trabaja con tablas en el gestor de base de datos DB2, a continuación, se describe las tablas y el funcionamiento de en relación al OPE.
 
-admin this page is shown, the "Home" link in the sidebar should be highlighted with the `.active` class. However, when you first enter this page, it's not. You have to click on it to gain the highlighting.
+## Tablas DB2
+Relacion de tablas que interactuan con el OPE.
 
-## First subheading
+| N° | Tabla | Descripción |
+|----|-------|-------------|
+| 1  | <a href="index.html#/pages/tables/TA_OPE_COMP.md" target="_blank">TA_OPE_COMP</a> | Detalle de TA_OPE_COMP |
+| 2  | <a href="index.html#/pages/tables/TA_OPE_CTRL.md" target="_blank">TA_OPE_CTRL</a> | Detalle de TA_OPE_CTRL |
+| 3  | <a href="index.html#/pages/tables/TA_OPE_EXPD.md" target="_blank">TA_OPE_EXPD</a> | Detalle de TA_OPE_EXPD |
+| 4  | <a href="index.html#/pages/tables/TA_OPE_EXPD_DETA.md" target="_blank">TA_OPE_EXPD_DETA</a> | Detalle de TA_OPE_EXPD_DETA |
+| 5  | <a href="index.html#/pages/tables/TA_OPE_FILE.md" target="_blank">TA_OPE_FILE</a> | Detalle de TA_OPE_FILE |
+| 6  | <a href="index.html#/pages/tables/TA_OPE_LOTE.md" target="_blank">TA_OPE_LOTE</a> | Detalle de TA_OPE_LOTE |
+| 7  | <a href="index.html#/pages/tables/TA_OPE_MSG_DET.md" target="_blank">TA_OPE_MSG_DET</a> | Detalle de TA_OPE_MSG_DET |
+| 8  | <a href="index.html#/pages/tables/TA_OPE_MSG_EXCE.md" target="_blank">TA_OPE_MSG_EXCE</a> | Detalle de TA_OPE_MSG_EXCE |
+| 9  | <a href="index.html#/pages/tables/TA_OPE_MSG_LIMI.md" target="_blank">TA_OPE_MSG_LIMI</a> | Detalle de TA_OPE_MSG_LIMI |
+| 10 | <a href="index.html#/pages/tables/TA_OPE_MSG_PESO.md" target="_blank">TA_OPE_MSG_PESO</a> | Detalle de TA_OPE_MSG_PESO |
+| 11 | <a href="index.html#/pages/tables/TA_OPE_MSG_RES.md" target="_blank">TA_OPE_MSG_RES</a> | Detalle de TA_OPE_MSG_RES |
+| 12 | <a href="index.html#/pages/tables/TA_OPE_MSG_VALI.md" target="_blank">TA_OPE_MSG_VALI</a> | Detalle de TA_OPE_MSG_VALI |
+| 13 | <a href="index.html#/pages/tables/TA_OPE_PARM.md" target="_blank">TA_OPE_PARM</a> | Detalle de TA_OPE_PARM |
+| 14 | <a href="index.html#/pages/tables/TA_OPE_PQTE.md" target="_blank">TA_OPE_PQTE</a> | Detalle de TA_OPE_PQTE |
+| 15 | <a href="index.html#/pages/tables/TA_OPE_PQTE_MIGR.md" target="_blank">TA_OPE_PQTE_MIGR</a> | Detalle de TA_OPE_PQTE_MIGR |
+| 16 | <a href="index.html#/pages/tables/TA_OPE_PROC.md" target="_blank">TA_OPE_PROC</a> | Detalle de TA_OPE_PROC |
+| 17 | <a href="index.html#/pages/tables/TA_OPE_PROG.md" target="_blank">TA_OPE_PROG</a> | Detalle de TA_OPE_PROG |
+| 18 | <a href="index.html#/pages/tables/TA_OPE_TIPO.md" target="_blank">TA_OPE_TIPO</a> | Detalle de TA_OPE_TIPO |
+| 19 | <a href="index.html#/pages/tables/TA_OPE_TRAX.md" target="_blank">TA_OPE_TRAX</a> | Detalle de TA_OPE_TRAX |
+| 20 | <a href="index.html#/pages/tables/TA_OPE_VAR.md" target="_blank">TA_OPE_VAR</a> | Detalle de TA_OPE_VAR |
 
-Lorem ipsum.
+
+
 
 ## Second subheading
 
