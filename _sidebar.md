@@ -1,2 +1,2 @@
-- [User](pages/user_doc.md)
-- [Admin](pages/admin_doc.md)
+- [User](user_doc.md)
+- [Admin](admin_doc.md)
