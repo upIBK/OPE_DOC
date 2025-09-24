@@ -20,8 +20,7 @@
 
   <!-- Opcional: Configuración de Docsify -->
   <script>
-    const isGithub = location.hostname === "upibk.github.io";
-    const basePath= isGithub ? '/OPE_DOC/' : '/'
+    const basePath= location.hostname == "127.0.0.1" ? '' : '/OPE_DOC/'
     console.log(location.hostname);
     console.log(basePath);
     window.$docsify = {
