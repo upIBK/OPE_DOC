@@ -10,7 +10,7 @@ Este espacio para el Sistema de Control de Pases (OPE) que permite validar los e
 - Tener un rol con los permisos suficientes para poder hacer uso de las diferentes opciones del OPE. Si no ve algunas de las opciones, es porque no tiene permisos suficientes.
 </div>
 
-**Enlaces de documentaciónn:**  
+**Enlaces de documentación:**  
 
 - [Documentación para usuarios](https://www.ejemplo.com/documentacion)  
 - [Documentación técnica](https://www.ejemplo.com/soporte)

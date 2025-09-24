@@ -20,6 +20,7 @@
 
   <!-- Opcional: Configuración de Docsify -->
   <script>
+    const isGithub = location.hostname === "upibk.github.io";
     window.$docsify = {
       name: 'OPE Docs',
       repo: '', 
@@ -27,6 +28,7 @@
       loadNavbar: false,
       subMaxLevel: 2,
       hideSidebar: false,
+      basePath: isGithub ? '/OPE_DOC/' : '/'
     };
   </script>
 
