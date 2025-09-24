@@ -1,0 +1,2 @@
+- [User](/pages/user_doc.md)
+- [Admin](/pages/admin_doc.md)

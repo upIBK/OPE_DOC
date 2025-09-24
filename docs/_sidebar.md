@@ -1,2 +1,0 @@
-- [User](user_doc.md)
-- [Admin](admin_doc.md)
