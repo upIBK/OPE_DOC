@@ -10,7 +10,7 @@ Estaba tabla contiene todos los <a href="index.html#/pages/components.md" target
 | 2  | CO_PQTE       | varchar | Código del paquete, que proviene de la tabla <a href="index.html#/pages/tables/TA_OPE_PQTE.md" target="_blank">TA_OPE_PQTE</a>                                     |
 | 3  | CO_COMP       | varchar | Nombre del componente que se esta registrando.        |
 | 4  | TI_COMP       | varchar | <a href="index.html#/pages/components.md" target="_blank">Tipo de componente</a>                                    |
-| 5  | CO_ESTA       | varchar | <a href="index.html#/pages/codigos_estado.md" target="_blank">Código de estado</a>                                      |
+| 5  | CO_ESTA       | varchar | <a href="index.html#/pages/comp_status.md" target="_blank">Código de estado</a>                                       |
 | 6  | FE_REGI       | varchar | Fecha de registro del componente  **(yyyyMMdd)**                                  |
 | 7  | HO_REGI       | varchar | Hora de registro del componente  **(HHmmss)**                                      |
 | 8  | CO_USER_REGI  | varchar | Usuario que registró el componente (FIRMA/MATRICULA)                                  |
