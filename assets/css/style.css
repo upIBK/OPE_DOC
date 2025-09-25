@@ -3,3 +3,11 @@
 .warning { background-color: #f8d7da; padding: 0.75rem; margin: 1rem 0; border-radius: 0.25rem; }
 .success { background-color: rgb(171, 240, 171); padding: 0.75rem; margin: 1rem 0; border-radius: 0.25rem; }
 
+/* custom docsify  */
+.content {
+  padding: 0 !important;
+}
+.markdown-section{
+    max-width: 99%;
+}
+

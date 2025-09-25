@@ -6,7 +6,7 @@ Relacion de tablas que interactuan con el OPE.
 
 | N° | Tabla | Descripción |
 |----|-------|-------------|
-| 1  | <a href="index.html#/pages/tables/TA_OPE_COMP.md" target="_blank">TA_OPE_COMP</a> | Detalle de TA_OPE_COMP |
+| 1  | <a href="index.html#/pages/tables/TA_OPE_COMP.md" target="_blank">TA_OPE_COMP</a> | Sirve para la gestion de paquetes de <a href="index.html#/pages/cics.resources.md" target="_blank">Recursos CICS</a>, aqui se registran los diferentes <a href="index.html#/pages/cics.resources.md" target="_blank">Recursos CICS</a> correspondientes a un determinado paquete. |
 | 2  | <a href="index.html#/pages/tables/TA_OPE_CTRL.md" target="_blank">TA_OPE_CTRL</a> | Detalle de TA_OPE_CTRL |
 | 3  | <a href="index.html#/pages/tables/TA_OPE_EXPD.md" target="_blank">TA_OPE_EXPD</a> | Detalle de TA_OPE_EXPD |
 | 4  | <a href="index.html#/pages/tables/TA_OPE_EXPD_DETA.md" target="_blank">TA_OPE_EXPD_DETA</a> | Detalle de TA_OPE_EXPD_DETA |
