@@ -4,7 +4,7 @@ Esta información es de los sub tipos que puede tener un componente, el sub tipo
 
 | # | VALOR | Descripción              |
 |---|:-------:|--------------------------|
-| 1 | **4** |     |
-| 2 | **D** | Representa el sub tipo mas común, el 90% de los componentes tiene este valor, son **NO PROTEGIDOS**|
-| 3 | **M** | Para componentes que usar MQ, con programas que trabajan con colas,son **NO PROTEGIDOS**|
-| 4 | **P** | Los componentes con este sub tipo contienen información sensible, son **PROTEGIDOS** |
+| 1 | **4** | son lo mq protegidos, consultar con angel    |
+| 2 | **D** | Representa el sub tipo mas común, el 90% de los componentes tiene este valor, son **NO PROTEGIDOS** y se guardan en la carpeta **PROGRAM** de endevor|
+| 3 | **M** | Para componentes que usar MQ, con programas que trabajan con colas,son **NO PROTEGIDOS** y se guardan en la carpeta **PROGRAM** de endevor|
+| 4 | **P** | Los componentes con este sub tipo contienen información sensible, son **PROTEGIDOS** y se guardan en la carpeta **PROTEGI** de endevor|
