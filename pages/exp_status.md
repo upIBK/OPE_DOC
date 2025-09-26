@@ -5,9 +5,9 @@ Aqui de describen los siguientes codigos de estados de expedientes que maneja el
 |----|:--------:|------------|------------|
 | 1  | AMP    |            |            |
 | 2  | ANU    |Anulado     |            |
-| 3  | EMP    |            |            |
-| 4  | EMS    |            |            |
-| 5  | EMU    |            |            |
+| 3  | EMP    |Enviado a migrar a producción|            |
+| 4  | EMS    |Enviado a migrar a SIT|            |
+| 5  | EMU    |Enviado a migrar a UAT|            |
 | 6  | ING    |            |            |
 | 7  |<span class="text-error">MEP</span>|<span class="text-error">Migrado con error a producción</span>|Si alguno de los componentes no migró a prod.|
 | 8  |<span class="text-error">MES</span>|<span class="text-error">Migrado con error a SIT</span>|Si alguno de los componentes no migró a SIT|

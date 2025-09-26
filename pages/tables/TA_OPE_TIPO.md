@@ -1,7 +1,7 @@
-# TA_OPE_TIPO
+# TABLA: TA_OPE_TIPO => TIPOS DE COMPONENTES
 
 **Descripción:**  
-Detalle de la tabla **TA_OPE_TIPO** usada en el sistema OPE.
+Esta tabla almacena.
 
 ## Estructura de la tabla
 - Columna1 – descripción

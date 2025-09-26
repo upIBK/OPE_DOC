@@ -1,13 +1,13 @@
 # Descripción
-El sistema de control de pases(OPE) trabaja con tablas en el gestor de base de datos DB2, a continuación, se describe las tablas y el funcionamiento de en relación al OPE.
+El sistema de control de pases(OPE) trabaja con tablas en el gestor de base de datos DB2, a continuación, se describe las tablas y el funcionamiento en relación al OPE.
 
 ## Tablas DB2
 Relacion de tablas que interactuan con el OPE.
 
 | N° | Tabla | Descripción |
 |----|-------|-------------|
-| 1  | <a href="index.html#/pages/tables/TA_OPE_COMP.md" target="_blank">TA_OPE_COMP</a> | Sirve para la gestion de paquetes de <a href="index.html#/pages/cics.resources.md" target="_blank">Recursos CICS</a>, aqui se registran los diferentes <a href="index.html#/pages/cics.resources.md" target="_blank">Recursos CICS</a> correspondientes a un determinado paquete. |
-| 2  | <a href="index.html#/pages/tables/TA_OPE_CTRL.md" target="_blank">TA_OPE_CTRL</a> | Detalle de TA_OPE_CTRL |
+| 1  | <a href="index.html#/pages/tables/TA_OPE_COMP.md" target="_blank">TA_OPE_COMP</a> | Sirve para la gestion de paquetes de <a href="index.html#/pages/components.md" target="_blank">Recursos CICS</a>, aqui se registran los diferentes <a href="index.html#/pages/components.md" target="_blank">Recursos CICS</a> correspondientes a un determinado paquete. |
+| 2  | <a href="index.html#/pages/tables/TA_OPE_CTRL.md" target="_blank">TA_OPE_CTRL</a> | Sirve para el registro de <a href="index.html#/pages/components.md" target="_blank">componentes</a> mediante la opción 1 del menu principal del OPE |
 | 3  | <a href="index.html#/pages/tables/TA_OPE_EXPD.md" target="_blank">TA_OPE_EXPD</a> | Detalle de TA_OPE_EXPD |
 | 4  | <a href="index.html#/pages/tables/TA_OPE_EXPD_DETA.md" target="_blank">TA_OPE_EXPD_DETA</a> | Detalle de TA_OPE_EXPD_DETA |
 | 5  | <a href="index.html#/pages/tables/TA_OPE_FILE.md" target="_blank">TA_OPE_FILE</a> | Detalle de TA_OPE_FILE |
