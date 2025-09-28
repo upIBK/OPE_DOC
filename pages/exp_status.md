@@ -1,4 +1,4 @@
-# ESTADO DE EXPEDIENTES
+# ESTADO DE EXPEDIENTES Y COMPONENTES
 Aqui de describen los siguientes codigos de estados de expedientes que maneja el OPE
 
 | #  | CO_ESTA_EXPD | Descripción | Comentario |

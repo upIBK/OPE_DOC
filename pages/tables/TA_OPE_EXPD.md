@@ -11,7 +11,7 @@ Esta tabla guarda los expedientes que se usan para la migración de componentes 
 | 3  | **TI_MIGR**    | CHAR(01)      | Describe el <a href="index.html#/pages/how_com_migra.md" target="_blank">tipo de migración de expediente</a>. |
 | 4  | **CO_ORIG**    | CHAR(01)      | Describe el <a href="index.html#/pages/exp_origen.md" target="_blank">Código de origen</a>.|
 | 5  | **NU_REGS**    | CHAR(04)      | Indica el numero de componentes que hay en el expediente |
-| 6  | **CO_SRS**     | CHAR(06)      | Código de SRT generado por rational. **IMPORTANTE** esta valor, de acuerdo a la documentación standard, debe coincidir con el valor en los componentes que pertenecen al expediente, <a href="assets/img/srt_comp.png" target="_blank">ver imagen de referencia</a>. El valor en el componente es importante, puesto se hace una validación, para que haya coherencia entre el expediente y los componentes que contiene |
+| 6  | **CO_SRS**     | CHAR(06)      | Código de SRT generado por rational. **IMPORTANTE** este valor, de acuerdo a la documentación standard, debe coincidir con el valor en el comentario del componente, <a href="assets/img/srt_comp.png" target="_blank">ver imagen de referencia</a>. El valor en el componente es importante, puesto se hace una validación, para que haya coherencia entre el expediente y los componentes que contiene |
 | 7  | **CO_WFLW**    | CHAR(06)      | Código de workflow, en la mayoría de casos este valor será  igual a  CO_SRS, si embargo cuando la aplicación es diferente, ambos serán diferentes. |
 | 8  | **CO_MOTIVO**  | CHAR(60)      | Motivo por el cual se crea el expediente ejemplo: "AUTOMATICACION PROCESO TOLD"|
 | 9  | **CO_USER**    | CHAR(08)      |Usuario que registró el componente, firma mainframe|
