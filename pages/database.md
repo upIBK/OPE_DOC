@@ -11,7 +11,7 @@ Relacion de tablas que interactuan con el OPE.
 | 3  | <a href="index.html#/pages/tables/TA_OPE_EXPD.md" target="_blank">TA_OPE_EXPD</a> | Sirve para la migracion de componentes entre los diferentes entornos: SIT/UAT/PRD |
 | 4  | <a href="index.html#/pages/tables/TA_OPE_EXPD_DETA.md" target="_blank">TA_OPE_EXPD_DETA</a> | Contiene el detalle de la migración de todos los componentes que pertenecen a un determinado expediente. |
 | 5  | <a href="index.html#/pages/tables/TA_OPE_FILE.md" target="_blank">TA_OPE_FILE</a> | Detalle de TA_OPE_FILE |
-| 6  | <a href="index.html#/pages/tables/TA_OPE_LOTE.md" target="_blank">TA_OPE_LOTE</a> | Detalle de TA_OPE_LOTE |
+| 6  | <a href="index.html#/pages/tables/TA_OPE_LOTE.md" target="_blank">TA_OPE_LOTE</a> | Esta tabla sirve para hacer una compilación o recompilación masiva de 1 o N programas |
 | 7  | <a href="index.html#/pages/tables/TA_OPE_MSG_DET.md" target="_blank">TA_OPE_MSG_DET</a> | Detalle de TA_OPE_MSG_DET |
 | 8  | <a href="index.html#/pages/tables/TA_OPE_MSG_EXCE.md" target="_blank">TA_OPE_MSG_EXCE</a> | Detalle de TA_OPE_MSG_EXCE |
 | 9  | <a href="index.html#/pages/tables/TA_OPE_MSG_LIMI.md" target="_blank">TA_OPE_MSG_LIMI</a> | Detalle de TA_OPE_MSG_LIMI |
