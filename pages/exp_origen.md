@@ -1,4 +1,4 @@
-# CODIGOS DE ORIGEN DEL EXPEDIENTE
+# CODIGOS DE ORIGEN
 
 **Descripción:**  
 Esta información describe el entorno desde donde se está migrando, el valor mas importante es la columna ORIGEN, ya que es la se guarda en base de datos
