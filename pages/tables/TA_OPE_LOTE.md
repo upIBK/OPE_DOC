@@ -29,6 +29,5 @@ Esta tabla sirve para hacer una compilación o recompilación masiva de N progra
 <div class="important">
 <b>IMPORTANTE:</b>
 Los lotes generados, solo tiene vigencia durante el día, lo ideal es tener un job que borre los lotes generados durante el día.
-
 </div>
 
