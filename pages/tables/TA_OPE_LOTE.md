@@ -10,20 +10,20 @@ Esta tabla sirve para hacer una compilación o recompilación masiva de N progra
 3. **Tercer paso:** En el member creado en el paso 2, se debe colocar todos los nombres de los programas a compilar, el nombre de los programas, debe seguir la siguiente nomenclatura: **[<a href="index.html#/pages/applications.md" target="_blank">CODIGO DE APLICACION</a>][NOMBRE DE PROGRAMA]**, ejemplo, **OPEOPEB002**, donde **OPE** el codigo de 3 digitos de la aplicación y **OPEB002** es el nombre del programa. **<a href="assets/img/lote_member_content.png" target="_blank">ver imagen de referencia</a>**  
 
 
-
 ## Estructura de la tabla
 | #  | **CAMPO** | Tipo de Dato | Descripción                                    |
 |----|-------------|--------------|------------------------------------------------|
-| 1  | **CO_APLI** | CHAR(03)     | <a href="index.html#/pages/applications.md" target="_blank">Codigo de Aplicación</a>|
-| 2  | **CO_USER** | CHAR(08)     | Usuario que crea el lote, firma mainframe|
-| 3  | **FE_LOTE** | CHAR(08)     | Fecha de creación del lote (formato YYYYMMDD)              |
-| 4  | **CO_LOTE** | CHAR(03)     | Código identificador del lote, tomando el ejemplo de los pasos en idz, este valor sería 101|
+| 1  | 🔑 **CO_APLI** | CHAR(03)     | <a href="index.html#/pages/applications.md" target="_blank">Codigo de Aplicación</a>|
+| 2  | 🔑 **CO_USER** | CHAR(08)     | Usuario que crea el lote, firma mainframe|
+| 3  | 🔑 **FE_LOTE** | CHAR(08)     | Fecha de creación del lote (formato YYYYMMDD)              |
+| 4  | 🔑 **CO_LOTE** | CHAR(03)     | Código identificador del lote, tomando el ejemplo de los pasos en idz, este valor sería 101|
 | 5  | **CO_PROG** | CHAR(08)     | Nombre del programa asociado al lote,tomando el ejemplo de los pasos en idz, este valor sería OPEB002|
 | 6  | **CO_ORIG** | CHAR(01)     | <a href="index.html#/pages/exp_origen.md" target="_blank">Origen del entorno </a>desde donde esta haciendo la compilación|
 | 7  | **NO_LIBP** | CHAR(25)     | Nombre de la librería(PDS) donde se encuentran los componentes que se van a compilar|
 | 8  | **DE_MENS** | CHAR(65)     | Descripción del resultado de compilación|
 | 9  | **CO_ESTA** | CHAR(01)     | Estado del lote|
 
+🔑 **Indica que el campo forma parte de la clave primaria (PK)**
 
 ## Observaciones
 <div class="important">

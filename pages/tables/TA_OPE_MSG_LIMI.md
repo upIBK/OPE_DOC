@@ -11,7 +11,7 @@ Contiene la configuración de los limites perimitidos cuando se ejecuta el proce
 ## Estructura de la tabla
 | #  | **CAMPO**      | Tipo de Dato    | Descripción |
 |----|------------------|-----------------|-------------|
-| 1  | **TI_PROG**      | CHAR(03)        | <a href="index.html#/pages/applications.md" target="_blank">Tipo de programa</a>, sobre cual se hace la optimización |
+| 1  | 🔑 **TI_PROG**      | CHAR(03)        | <a href="index.html#/pages/applications.md" target="_blank">Tipo de programa</a>, sobre cual se hace la optimización |
 | 2  | **NU_LIMI_INFO** | INTEGER         | N° límite de **mensajes informativos** que se pueden admitir. |
 | 3  | **NU_LIMI_WARN** | INTEGER         | N° límite de **mensajes warnings** que se pueden admitir. |
 | 4  | **NU_LIMI_PERF** | INTEGER         | N° límite de **mensajes performace** que se pueden admitir. |
@@ -33,6 +33,8 @@ Contiene la configuración de los limites perimitidos cuando se ejecuta el proce
 | 20 | **NU_LINE_LIN4** | INTEGER         | Este es el **CUARTO NIVEL** e indica el n° lineas que puede tener un programa, este es el rango maximo es decir, si un programa tiene un numero de lineas < a este valor, se aplicará el % de ajuste del campo **NU_PORC_LIN3** |
 | 21 | **NU_LINE_LIN5** | INTEGER         | Este es el **QUINTO NIVEL** e indica el n° lineas que puede tener un programa, este es el rango maximo es decir, si un programa tiene un numero de lineas < a este valor, se aplicará el % de ajuste del campo **NU_PORC_LIN4**. **A considerar**, obervar que hasta este punto no se usado el **NU_PORC_LIN5**, **el quinto nivel (NU_PORC_LIN5) solo se aplica cuando el n° de lineas del programa supera al quinto nivel** |
 
+🔑 **Indica que el campo forma parte de la clave primaria (PK)**
+
 ## <div class="text-sucess">SALIDA DE UN PROGRAMA QUE FUE COMPILADO Y ANALIZADO</div>
 
 **<a href="assets/img/opebres_log.png" target="_blank">ver imagen de referencia</a>**
@@ -47,8 +49,8 @@ Contiene la configuración de los limites perimitidos cuando se ejecuta el proce
 <span title="Número de mensajes a depurar">MENSAJES A DEPURAR:000000000</span>
 ----------------------------------------------------------
 <span title="Ajustes según el tipo de programa (ejemplo: batch)">---AJUSTES-POR-TIPO-DE-PROGRAMA-(BAT)----------------------</span>
-<span title="%AJ.PESO: de izquiera a derecha ajustes para msg: INFORMATIVOS/WARNINGS/PERFORMANCE/REP.WTRITER/CANCELATORIOS. en este ejmplo para todos es 100, pero no es siempre asi">%AJ.PESO: 100.00/ 100.00/ 100.00/ 100.00/ 100.00</span>
-<span title="RNG.LINE: de izquiera derecha los niveles: NIVEL 1/NIVEL 2/NIVEL 3/NIVEL 4/NIVEL 5">RNG.LINE:0000001000/0000002000/0000005000/0000010000/0000050000</span>
+<span title="%AJ.PESO: de izquierda a derecha ajustes para msg: INFORMATIVOS/WARNINGS/PERFORMANCE/REP.WTRITER/CANCELATORIOS. en este ejmplo para todos es 100, pero no es siempre asi">%AJ.PESO: 100.00/ 100.00/ 100.00/ 100.00/ 100.00</span>
+<span title="RNG.LINE: de izquierda derecha los niveles: NIVEL 1/NIVEL 2/NIVEL 3/NIVEL 4/NIVEL 5">RNG.LINE:0000001000/0000002000/0000005000/0000010000/0000050000</span>
 <span title="%AJ.LINE: de izquierda a derecha % de dscto, depende a la cantidad de lineas de programa">%AJ.LINE: 040.00/ 035.00/ 030.00/ 025.00/ 020.00</span>
 ----------------------------------------------------------
 <span title="Total de líneas procesadas y % de ajuste aplicado">NRO DE LINEAS DEL PROGRAMA:0000000209,% DE AJUSTE:00100%</span>
@@ -65,7 +67,7 @@ Contiene la configuración de los limites perimitidos cuando se ejecuta el proce
 <span title="Resultado final: el proceso se cancela por exceso de peso">*** CANCELA POR EXCESO DE PESO LIMITE ***</span>
 </pre>
 
-**Remplazando valores**
+**Reemplazando valores**
 1. No vamos a ubicar con la cantidad de mensajes que tienen valor, en este caso los cancelatorios que son 21 (columna PESO-ACUM), esto quiere decir que le compilador detectó, 21 mensajes de este tipo.
 2. Calcular la columna DSCT.TIPO, para esto tenemos que multiplicar la cantidad de mensajes encontrados(21) por el porcentaje de ajuste de peso establecido / 100, si miramos en la linea %AJ.PESO de log, podemos ver que para mensajes cancelatorios el % de AJ.PESO, es 100 entonces:
    21 * (100 / 100) = 21 , esto quiero decir que nuestro programa no recibió descuento alguno y el desarrollador tiene que corregir dichos logs.

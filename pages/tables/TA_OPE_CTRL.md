@@ -6,7 +6,7 @@ Estaba tabla contiene todos los <a href="index.html#/pages/components.md" target
 ## Estructura de la tabla
 | #  | CAMPO            | Tipo     | Descripción |
 |----|------------------|----------|-------------|
-| 1  | **CO_COMP**       | CHAR(8)  |Nombre del <a href="index.html#/pages/components.md" target="_blank">componente</a>|
+| 1  | 🔑 **CO_COMP**       | CHAR(8)  |Nombre del <a href="index.html#/pages/components.md" target="_blank">componente</a>|
 | 2  | **CO_TIPO**       | CHAR(3)  |<a href="index.html#/pages/component_type.md" target="_blank">Tipo de componente</a>|
 | 3  | **CO_APL**        | CHAR(3)  |<a href="index.html#/pages/applications.md" target="_blank">Codigo de Aplicación</a>|
 | 4  | **FE_CREA**       | CHAR(8)  |Fecha de creación del componente  **(yyyyMMdd)**|
@@ -31,6 +31,8 @@ Estaba tabla contiene todos los <a href="index.html#/pages/components.md" target
 | 23 | **FE_ESTA_PRD**   | CHAR(8)  |Fecha se que se hizo la migración a PRD (yyyyMMdd), importante saber que con cada migración de expediente, este valor se sobreescribe.|
 | 24 | **HO_ESTA_PRD**   | CHAR(6)  |Hora se que se hizo la migración a PRD (HHmmss), importante saber que con cada migración de expediente, este valor se sobreescribe.|
 | 25 | **CO_EXPD_PRD**   | CHAR(6)  |Codigo del ultimo expediente que migró PRD, importante saber que con cada migración de expediente, este valor se sobreescribe.|
+
+🔑 **Indica que el campo forma parte de la clave primaria (PK)**
 
 ## Observaciones
 

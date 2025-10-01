@@ -6,8 +6,8 @@ Esta tabla guarda los expedientes que se usan para la migración de componentes 
 ## Estructura de la tabla
 | #  | CAMPO        | Tipo de Dato | Descripción |
 |----|----------------|---------------|-------------|
-| 1  | **CO_APL**     | CHAR(03)      | <a href="index.html#/pages/applications.md" target="_blank">Codigo de Aplicación</a> |
-| 2  | **CO_EXPD**    | CHAR(06)      | Numero correlativo del expediente, este numero es correlativo por cada <a href="index.html#/pages/applications.md" target="_blank">codigo de aplicación</a> es decir, cada aplicación tiene su correlativo. |
+| 1  | 🔑 **CO_APL**     | CHAR(03)      | <a href="index.html#/pages/applications.md" target="_blank">Codigo de Aplicación</a> |
+| 2  | 🔑 **CO_EXPD**    | CHAR(06)      | Numero correlativo del expediente, este numero es correlativo por cada <a href="index.html#/pages/applications.md" target="_blank">codigo de aplicación</a> es decir, cada aplicación tiene su correlativo. |
 | 3  | **TI_MIGR**    | CHAR(01)      | Describe el <a href="index.html#/pages/how_com_migra.md" target="_blank">tipo de migración de expediente</a>. |
 | 4  | **CO_ORIG**    | CHAR(01)      | Describe el <a href="index.html#/pages/exp_origen.md" target="_blank">Código de origen</a>.|
 | 5  | **NU_REGS**    | CHAR(04)      | Indica el numero de componentes que hay en el expediente |
@@ -23,6 +23,7 @@ Esta tabla guarda los expedientes que se usan para la migración de componentes 
 | 15 | **HO_EXPD_MOD**  | CHAR(06)    | Hora de modificación (HHMMSS) |
 | 16 | **CO_USER_MOD**  | CHAR(08)    | Usuario que modificó el componente, firma mainframe|
 
+🔑 **Indica que el campo forma parte de la clave primaria (PK)**
 
 ## Observaciones
 
