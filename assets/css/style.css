@@ -14,3 +14,7 @@
     max-width: 99%;
 }
 
+.markdown-section h2{
+  margin: 0;
+}
+
