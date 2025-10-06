@@ -4,6 +4,7 @@ Esta información corresponde a los tipos de mensajes que clasifica el OPE al mo
 
 | # | Valor | Descripción                  |
 |---|:--------:|------------------------------|
+|  | **A**  | PREGUNTAR... |
 | 1 | **C**  | MENSAJES CANCELATORIOS  |
 | 2 | **I**  | MENSAJES INFORMATIVOS     |
 | 3 | **P**  | MENSAJES DE PERFORMANCE    |

@@ -37,7 +37,7 @@ Contiene todo el **RESUMEN.** del analisis y optimización de codigo hechas por 
 | 28 | **NU_SOUR_RECO**      | INTEGER          | preguntar a angel.... |
 | 29 | **NU_PRDV_RECO**      | INTEGER          | preguntar a angel.... |
 | 30 | **NU_FACT_CMPX**      | INTEGER          | preguntar a angel.... |
-| 31 | **NU_PESO_TOTA**      | INTEGER          | preguntar a angel.... |
+| 31 | **NU_PESO_TOTA**      | INTEGER          | preguntar a angel...., pense que el peso total, pero esta 0 |
 | 32 | **NU_LIMI_INFO_BASE** | INTEGER          | Límite base de mensajes de tipo **INFORMATIVOS**, tomado del campo **NU_LIMI_INFO** en la tabla <a href="index.html#/pages/tables/TA_OPE_MSG_LIMI.md" target="_blank">TA_OPE_MSG_LIMI</a>, esto quiere decir que si en algun momento la configuración de limite cambia, estos valores se van a quedar como historicos. |
 | 33 | **NU_LIMI_WARN_BASE** | INTEGER          | Límite base de mensajes de tipo **WARNINGS**, tomado del campo **NU_LIMI_WARN** en la tabla <a href="index.html#/pages/tables/TA_OPE_MSG_LIMI.md" target="_blank">TA_OPE_MSG_LIMI</a>, esto quiere decir que si en algun momento la configuración de limite cambia, estos valores se van a quedar como historicos. |
 | 34 | **NU_LIMI_PERF_BASE** | INTEGER          | Límite base de mensajes de tipo **PERFORMANCE**, tomado del campo **NU_LIMI_PERF** en la tabla <a href="index.html#/pages/tables/TA_OPE_MSG_LIMI.md" target="_blank">TA_OPE_MSG_LIMI</a>, esto quiere decir que si en algun momento la configuración de limite cambia, estos valores se van a quedar como historicos. |
