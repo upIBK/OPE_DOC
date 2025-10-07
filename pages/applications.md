@@ -7,129 +7,136 @@ De la lista de aplicaciones,  el dato mas importante es la columna CODIGO, siemp
 </div>
 
 | #   | CÓDIGO | DESC                                           |
-|-----|--------|-----------------------------------------------|
-| 1   | **$IM**  | $IM SYSTEMATICS-IMPACS                        |
-| 2   | **$IT**  | $IT SYSTEMATICS-INTERSYSTEM TRANSFERS        |
-| 3   | **$IV**  | $IV SYSTEMATICS-CHECK INVENTORY              |
-| 4   | **$RM**  | $RM SYSTEMATICS-CLIENTES                      |
-| 5   | **$ST**  | $ST SYSTEMATICS-SAVINGS TIME                  |
-| 6   | **$TS**  | $TS SYSTEMATICS-ARCHITECTURE                  |
-| 7   | **ACF**  | ACF                                           |
-| 8   | **ACO**  | ACO CONTROVERSIAS                             |
-| 9   | **ADQ**  | ADQ ADQUICISIONES                             |
-| 10  | **AGM**  | PAG PAGO ACTIVO COBROS                         |
-| 11  | **AGN**  | AGN AGENTE                                    |
-| 12  | **APR**  | APR ADMINISTRACIÓN DE PRODUCTOS               |
-| 13  | **AUD**  | AUD AUDITORÍA                                 |
-| 14  | **BCR**  | BCR                                           |
-| 15  | **BDR**  | BDR BASE DE DATOS DE RIESGOS                  |
-| 16  | **BIE**  | BIE BANCA POR INTERNET EMPRESAS               |
-| 17  | **BKT**  | BKT BANKTRADE                                 |
-| 18  | **BPE**  | BPE BANCA PEQUEÑA Y MEDIANA EMPRESA          |
-| 19  | **BPI**  | BPI BANCA POR INTERNET PERSONAS               |
-| 20  | **BPS**  | BPS                                           |
-| 21  | **BSE**  | BSE BUS DE SERVICIOS INTERBANK (MULTIB)      |
-| 22  | **CAM**  | CAM CAMBIOS                                   |
-| 23  | **CAS**  | CAS CONSULTA AUTOMÁTICA DE SOBREGIRO         |
-| 24  | **CBA**  | CBA CONCILIACIÓN BANCARIA                     |
-| 25  | **CCD**  | CCD NUEVO CORE DE CREDITOS                     |
-| 26  | **CCE**  | CCE CLIENTES ESPECIALES                        |
-| 27  | **CDA**  | CDA SAT NUEVO - AUTORIZACIONES                |
-| 28  | **CDB**  | CDB SAT NUEVO - CONTABILIDAD                  |
-| 29  | **CDC**  | CDC SAT NUEVO - CONTRATOS                      |
-| 30  | **CDD**  | CDD SAT NUEVO - DEBITO                         |
-| 31  | **CDI**  | CDI SAT NUEVO - INTERFACES                     |
-| 32  | **CDL**  | CDL SAT NUEVO -                                |
-| 33  | **CDM**  | CDM SAT NUEVO - COMERCIOS                      |
-| 34  | **CDO**  | CDO SAT NUEVO - OPERACIONES                    |
-| 35  | **CDP**  | CDP SAT NUEVO - PARAMETROS                     |
-| 36  | **CDQ**  | CDQ SAT NUEVO - CUOTAS                          |
-| 37  | **CDR**  | CDR SAT NUEVO - REDES                            |
-| 38  | **CDS**  | CDS SAT NUEVO - SEGURIDAD                        |
-| 39  | **CDT**  | CDT SAT NUEVO -                                  |
-| 40  | **CDU**  | CDU SAT NUEVO - DEPURACION DE DATOS             |
-| 41  | **CDV**  | CDV SAT NUEVO - VENCIDOS                         |
-| 42  | **CDW**  | CDW SAT NUEVO - DATA WAREHOUSE                  |
-| 43  | **CDX**  | CDX SAT NUEVO - CONTROVERSIAS                   |
-| 44  | **CHQ**  | CHQ CHEQUERAS                                   |
-| 45  | **CJE**  | CJE CANJE ELECTRÓNICO (N-COMPASS - NCR)        |
-| 46  | **CNX**  | CNX CONNEX                                      |
-| 47  | **COM**  | COM RUTINAS COMUNES DE INTERBANK               |
-| 48  | **CPG**  | CPG COMPROBANTES DE PAGO                        |
-| 49  | **CRM**  | CRM CUSTOMER RELATIONSHIP MANAGER              |
-| 50  | **DEP**  | DEP DEPÓSITOS                                   |
-| 51  | **DWH**  | DWH DATA WAREHOUSE                              |
-| 52  | **EBE**  | EBE ESTADISTICAS BANCA ELECTRONICA             |
-| 53  | **EBS**  | EBS CONTABILIDAD                                |
-| 54  | **EDP**  | EDP REMESAS DEL EXTERIOR                        |
-| 55  | **ERP**  | ERP                                             |
-| 56  | **FCD**  | FCD FINANCIAMIENTO DE COBRANZA DE DOCU          |
-| 57  | **FEV**  | FEV FIRMAS EN VIGILANCIA ESPECIAL              |
-| 58  | **FMU**  | FMU FONDOS MUTUOS                               |
-| 59  | **GAC**  | GAC GARANTÍAS Y CUSTODIA                        |
-| 60  | **GCO**  | GCO GESTIÓN DE COBRANZA                          |
-| 61  | **GFC**  | GFC                                             |
-| 62  | **GLO**  | GLO                                             |
-| 63  | **GTC**  | GTC CHEQUES DE GERENCIA                           |
-| 64  | **HPC**  | HPC HIPOTECARIO Y CRÉDITOS DE CONSUMO            |
-| 65  | **ICC**  | ICC INFORMACIÓN CONFIDENCIAL CREDITICIA          |
-| 66  | **IDS**  | ACO CONTROVERSIAS                                |
-| 67  | **INC**  | INC INCOMING                                     |
-| 68  | **IPG**  | IPG RECAUDACIÓN Y PAGOS                          |
-| 69  | **ITF**  | ITF IMPUESTO A LAS TRANSACCIONES BANCA           |
-| 70  | **JCC**  | JCC JUDICIAL CONDONACIÓN Y CASTIGO               |
-| 71  | **LBT**  | LBT LÍNEAS DE CRÉDITO POR CONVENIO              |
-| 72  | **LIC**  | LIC LÍNEAS DE CRÉDITO POR CONVENIO              |
-| 73  | **LPC**  | LPC LEASING                                     |
-| 74  | **MDC**  | MDC MESA DE DINERO                               |
-| 75  | **MIS**  | MIS MANAGER INFORMATION SYSTEM                   |
-| 76  | **MIX**  | MIX MÓDULO INTERMEDIO COMERCIO EXTERIOR         |
-| 77  | **MSJ**  | MYP MEDIANA Y PEQUEÑA EMPRESA                    |
-| 78  | **MYP**  | MYP MEDIANA Y PEQUEÑA EMPRESA                    |
-| 79  | **NXD**  | NXD NEXT DAY                                     |
-| 80  | **OBS**  | OBSOLETOS                                       |
-| 81  | **OFI**  | OFI OFICINAS                                     |
-| 82  | **OPE**  | OPE ING DE SISTEMAS                               |
-| 83  | **OTP**  | OTP ONE TIME PASSWORD                             |
-| 84  | **PAG**  | PAG PAGO ACTIVO COBROS                             |
-| 85  | **PCL**  | PCL POSICIÓN DE CLIENTES                           |
-| 86  | **PLD**  | PLD PREVENCIÓN LAVADO DE DINERO                   |
-| 87  | **PPA**  | PPA PAGO ACTIVO PAGOS                              |
-| 88  | **PPL**  | PPL PLANILLAS                                     |
-| 89  | **PPS**  | PPS TARJETA PRIORITY PASS                           |
-| 90  | **PRO**  | PRO PROVISIONES                                   |
-| 91  | **PUN**  | PUN PLATAFORMA UNIVERSAL                            |
-| 92  | **RCH**  | RCH RECHAZOS Y AUTORIZACIONES                      |
-| 93  | **REC**  | REC SEGUIMIENTO EN RECUPERACIONES                   |
-| 94  | **REJ**  | REJ RETENCIONES JUDICIALES                          |
-| 95  | **REM**  | REM REMESAS Y FLUJO DE CAJA                          |
-| 96  | **RNC**  | RNC CAJEROS GLOBAL NET                               |
-| 97  | **RNT**  | RNT RENTABILIDAD                                     |
-| 98  | **RTC**  | RTC REPORTE DE ANULACIÓN DE TARJETA DE               |
-| 99  | **RTG**  | RTG RATING DE CLIENTES                                |
-| 100 | **SBS**  | SBS SUPERINTENDENCIA DE BANCA Y SEGURO               |
-| 101 | **SCB**  | SCB PARTICIPACIÓN CIUDADANA                          |
-| 102 | **SCF**  | SCF CARTAS FIANZAS                                    |
-| 103 | **SCL**  | SCL                                                   |
-| 104 | **SES**  | SES                                                   |
-| 105 | **SFC**  | SFC FIDELIZACION DE CLIENTES                          |
-| 106 | **SGD**  | SGD SEGURIDAD                                         |
-| 107 | **SIA**  | SIA SISTEMA INTEGRADO DE AUTORIZACIONES              |
-| 108 | **SIB**  | SIB SISTEMA DE INFORMACIÓN BANCARIA                  |
-| 109 | **SIE**  | SIE SISTEMA DE INFORMACIÓN ESTADÍSTICA               |
-| 110 | **SNT**  | SNT SUNAT                                            |
-| 111 | **TBE**  | TBE TARJETA EMPRESARIAL                               |
-| 112 | **TCT**  | TCT TRASPASOS CTS                                     |
-| 113 | **TDA**  | TDA TARJETA DE DÉBITO TDA (AUTORIZACIÓN)             |
-| 114 | **TDE**  | TDE TARJETA DE DÉBITO TDE                             |
-| 115 | **TFR**  | TFR TARIFARIO                                         |
-| 116 | **TLD**  | TLD                                                   |
-| 117 | **TPE**  | TPE TARJETA PEQUEÑA EMPRESA                            |
-| 118 | **TRC**  | TRC TARJETAS CONVENIO                                  |
-| 119 | **TRD**  | TRD TRIAD                                             |
-| 120 | **TRJ**  | TRJ TARJETA ELECTRÓN                                    |
-| 121 | **VCA**  | VCA VISA SERVICIOS DE AUTENTICACION                    |
-| 122 | **WBC**  | WBC SERVICIO DE AUTENTICACIÓN VISA                      |
-| 123 | **WIO**  | WIO WF BANCA COMERCIAL                                   |
+|---|-----|------|
+| 1 | **$AM** | SYSTEMATICS |
+| 2 | **$CL** | SYSTEMATICS - COMMERCIAL LOANS |
+| 3 | **$FI** | SYSTEMATICS |
+| 4 | **$GN** | SYSTEMATICS - ARQUITECTURA |
+| 5 | **$IM** | SYSTEMATICS - IMPACS |
+| 6 | **$IT** | SYSTEMATICS - INTERSYSTEM TRANSFERS |
+| 7 | **$IV** | SYSTEMATICS - CHECK INVENTORY |
+| 8 | **$RM** | SYSTEMATICS - CLIENTES |
+| 9 | **$ST** | SYSTEMATICS - SAVINGS TIME |
+| 10 | **$TS** | SYSTEMATICS - ARCHITECTURE |
+| 11 | **ACF** | ACF |
+| 12 | **ACO** | CONTROVERSIAS |
+| 13 | **ADQ** | ADQUICISIONES |
+| 14 | **AGM** | PAGO ACTIVO COBROS |
+| 15 | **AGN** | AGENTE |
+| 16 | **APR** | ADMINISTRACIÓN DE PRODUCTOS |
+| 17 | **AUD** | AUDITORÍA |
+| 18 | **BCR** | BCR |
+| 19 | **BDR** | BASE DE DATOS DE RIESGOS |
+| 20 | **BIE** | BANCA POR INTERNET EMPRESAS |
+| 21 | **BKT** | BANKTRADE |
+| 22 | **BPE** | BANCA PEQUEÑA Y MEDIANA EMPRESA |
+| 23 | **BPI** | BANCA POR INTERNET PERSONAS |
+| 24 | **BPS** | BPS |
+| 25 | **BSE** | BUS DE SERVICIOS INTERBANK (MULTIB) |
+| 26 | **CAM** | CAMBIOS |
+| 27 | **CAS** | CONSULTA AUTOMÁTICA DE SOBREGIRO |
+| 28 | **CBA** | CONCILIACIÓN BANCARIA |
+| 29 | **CCD** | NUEVO CORE DE CRÉDITOS |
+| 30 | **CCE** | CLIENTES ESPECIALES |
+| 31 | **CDA** | SAT NUEVO - AUTORIZACIONES |
+| 32 | **CDB** | SAT NUEVO - CONTABILIDAD |
+| 33 | **CDC** | SAT NUEVO - CONTRATOS |
+| 34 | **CDD** | SAT NUEVO - DÉBITO |
+| 35 | **CDI** | SAT NUEVO - INTERFACES |
+| 36 | **CDL** | SAT NUEVO |
+| 37 | **CDM** | SAT NUEVO - COMERCIOS |
+| 38 | **CDO** | SAT NUEVO - OPERACIONES |
+| 39 | **CDP** | SAT NUEVO - PARÁMETROS |
+| 40 | **CDQ** | SAT NUEVO - CUOTAS |
+| 41 | **CDR** | SAT NUEVO - REDES |
+| 42 | **CDS** | SAT NUEVO - SEGURIDAD |
+| 43 | **CDT** | SAT NUEVO |
+| 44 | **CDU** | SAT NUEVO - DEPURACIÓN DE DATOS |
+| 45 | **CDV** | SAT NUEVO - VENCIDOS |
+| 46 | **CDW** | SAT NUEVO - DATA WAREHOUSE |
+| 47 | **CDX** | SAT NUEVO - CONTROVERSIAS |
+| 48 | **CHQ** | CHEQUERAS |
+| 49 | **CJE** | CANJE ELECTRÓNICO (N-COMPASS - NCR) |
+| 50 | **CNX** | CONNEX |
+| 51 | **COM** | RUTINAS COMUNES DE INTERBANK |
+| 52 | **CPG** | COMPROBANTES DE PAGO |
+| 53 | **CRM** | CUSTOMER RELATIONSHIP MANAGER |
+| 54 | **DEP** | DEPÓSITOS |
+| 55 | **DWH** | DATA WAREHOUSE |
+| 56 | **EBE** | ESTADÍSTICAS BANCA ELECTRÓNICA |
+| 57 | **EBS** | CONTABILIDAD |
+| 58 | **EDP** | REMESAS DEL EXTERIOR |
+| 59 | **ERP** | ERP |
+| 60 | **FCD** | FINANCIAMIENTO DE COBRANZA DE DOCUMENTOS |
+| 61 | **FEV** | FIRMAS EN VIGILANCIA ESPECIAL |
+| 62 | **FMU** | FONDOS MUTUOS |
+| 63 | **GAC** | GARANTÍAS Y CUSTODIA |
+| 64 | **GCO** | GESTIÓN DE COBRANZA |
+| 65 | **GFC** | GFC |
+| 66 | **GLO** | GLO |
+| 67 | **GTC** | CHEQUES DE GERENCIA |
+| 68 | **HPC** | HIPOTECARIO Y CRÉDITOS DE CONSUMO |
+| 69 | **ICC** | INFORMACIÓN CONFIDENCIAL CREDITICIA |
+| 70 | **IDS** | CONTROVERSIAS |
+| 71 | **INC** | INCOMING |
+| 72 | **IPG** | RECAUDACIÓN Y PAGOS |
+| 73 | **ISV** | INTERSERVIS EMPRESARIAL / EN LÍNEA |
+| 74 | **ITF** | IMPUESTO A LAS TRANSACCIONES BANCARIAS |
+| 75 | **JCC** | JUDICIAL CONDONACIÓN Y CASTIGO |
+| 76 | **LBT** | LÍNEAS DE CRÉDITO POR CONVENIO |
+| 77 | **LIC** | LÍNEAS DE CRÉDITO POR CONVENIO |
+| 78 | **LPC** | LEASING |
+| 79 | **MDC** | MESA DE DINERO |
+| 80 | **MIS** | MANAGER INFORMATION SYSTEM |
+| 81 | **MIX** | MÓDULO INTERMEDIO COMERCIO EXTERIOR |
+| 82 | **MSJ** | MEDIANA Y PEQUEÑA EMPRESA |
+| 83 | **MYP** | MEDIANA Y PEQUEÑA EMPRESA |
+| 84 | **NXD** | NEXT DAY |
+| 85 | **OBS** | OBSOLETOS |
+| 86 | **OFI** | OFICINAS |
+| 87 | **OPE** | ING DE SISTEMAS |
+| 88 | **OTP** | ONE TIME PASSWORD |
+| 89 | **PAG** | PAGO ACTIVO COBROS |
+| 90 | **PCL** | POSICIÓN DE CLIENTES |
+| 91 | **PLD** | PREVENCIÓN LAVADO DE DINERO |
+| 92 | **PPA** | PAGO ACTIVO PAGOS |
+| 93 | **PPL** | PLANILLAS |
+| 94 | **PPS** | TARJETA PRIORITY PASS |
+| 95 | **PRO** | PROVISIONES |
+| 96 | **PUN** | PLATAFORMA UNIVERSAL |
+| 97 | **RCH** | RECHAZOS Y AUTORIZACIONES |
+| 98 | **REC** | SEGUIMIENTO EN RECUPERACIONES |
+| 99 | **REJ** | RETENCIONES JUDICIALES |
+| 100 | **REM** | REMESAS Y FLUJO DE CAJA |
+| 101 | **RNC** | CAJEROS GLOBAL NET |
+| 102 | **RNS** | RED DE SWITCHING |
+| 103 | **RNT** | RENTABILIDAD |
+| 104 | **RTC** | REPORTE DE ANULACIÓN DE TARJETA DE CRÉDITO |
+| 105 | **RTG** | RATING DE CLIENTES |
+| 106 | **SBS** | SUPERINTENDENCIA DE BANCA Y SEGUROS |
+| 107 | **SCB** | PARTICIPACIÓN CIUDADANA |
+| 108 | **SCF** | CARTAS FIANZAS |
+| 109 | **SCL** | SCL |
+| 110 | **SES** | SES |
+| 111 | **SFC** | FIDELIZACIÓN DE CLIENTES |
+| 112 | **SGD** | SEGURIDAD |
+| 113 | **SIA** | SISTEMA INTEGRADO DE AUTORIZACIONES |
+| 114 | **SIB** | SISTEMA DE INFORMACIÓN BANCARIA |
+| 115 | **SIE** | SISTEMA DE INFORMACIÓN ESTADÍSTICA |
+| 116 | **SNT** | SUNAT |
+| 117 | **TBE** | TARJETA EMPRESARIAL |
+| 118 | **TCT** | TRASPASOS CTS |
+| 119 | **TDA** | TARJETA DE DÉBITO TDA (AUTORIZACIÓN) |
+| 120 | **TDE** | TARJETA DE DÉBITO TDE |
+| 121 | **TFR** | TARIFARIO |
+| 122 | **TLD** | TLD |
+| 123 | **TPE** | TARJETA PEQUEÑA EMPRESA |
+| 124 | **TRC** | TARJETAS CONVENIO |
+| 125 | **TRD** | TRIAD |
+| 126 | **TRJ** | TARJETA ELECTRÓN |
+| 127 | **VCA** | VISA SERVICIOS DE AUTENTICACIÓN |
+| 128 | **WBC** | SERVICIO DE AUTENTICACIÓN VISA |
+| 129 | **WIO** | WF BANCA COMERCIAL |
+
 
 

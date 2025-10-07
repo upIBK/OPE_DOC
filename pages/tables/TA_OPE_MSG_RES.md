@@ -34,7 +34,7 @@ Contiene todo el **RESUMEN.** del analisis y optimización de codigo hechas por 
 | 25 | **NU_DCTO_PERF_NLIN** | DECIMAL(5,2)     | Descuento aplicado por numero de linear para mensajes de tipo **PERFORMANCE**  |
 | 26 | **NU_DCTO_RWRI_NLIN** | DECIMAL(5,2)     | Descuento aplicado por numero de linear para mensajes de tipo **REPORT WRITER**  |
 | 27 | **NU_DCTO_CANC_NLIN** | DECIMAL(5,2)     | Descuento aplicado por numero de linear para mensajes de tipo **CANCELATORIOS**  |
-| 28 | **NU_SOUR_RECO**      | INTEGER          | preguntar a angel.... |
+| 28 | **NU_SOUR_RECO**      | INTEGER          | lineas de programa? preguntar a angel.... |
 | 29 | **NU_PRDV_RECO**      | INTEGER          | preguntar a angel.... |
 | 30 | **NU_FACT_CMPX**      | INTEGER          | preguntar a angel.... |
 | 31 | **NU_PESO_TOTA**      | INTEGER          | preguntar a angel...., pense que el peso total, pero esta 0 |

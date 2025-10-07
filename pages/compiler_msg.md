@@ -10,7 +10,7 @@ Esta información corresponde a los tipos de mensajes que emite el compilador y 
 ### Lista de mensajes
 | # | CODIGO | DESCRIPCION | CLASIFICACION | PESO |
 |---|---------|---------|:---------------:|----------|
-| 1 | IGYCB7300-W | THE REMOVED CODE MAY BE UNREACHABLE NOT CHANGE THE OPERATION | <a href="index.html#/pages/classification_msg.md" target="_blank">A</a> |   |
+| 1 | IGYCB7300-W | THE REMOVED CODE MAY BE UNREACHABLE NOT CHANGE THE OPERATION | <a href="index.html#/pages/classification_msg.md" target="_blank"></a> |0|
 | 2 | IGYCB7309-W | POSIBLE LOOP EN UN PARRAFO INVOCADO VIA PERFORM | <a href="index.html#/pages/classification_msg.md" target="_blank">C</a> | 2 |
 | 3 | IGYCB7310-W | STOP RUN EN RUTINAS INVOCADAS VIA PERFORM | <a href="index.html#/pages/classification_msg.md" target="_blank">W</a> | 0 |
 | 4 | IGYCB7311-W | USO DE DATOS ANTES DE QUE SEA INICIALIZADO | <a href="index.html#/pages/classification_msg.md" target="_blank">W</a> | 2 |

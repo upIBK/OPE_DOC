@@ -12,9 +12,9 @@ Esta tabla es **IMPORTANTE**, almacena todos los procedimiento que usa el OPE cu
 <table>
   <thead>
     <tr>
-      <th >#</th>
-      <th >CAMPO</th>
-      <th >TIPO DE DATO</th>
+      <th>#</th>
+      <th>CAMPO</th>
+      <th>TIPO DE DATO</th>
       <th>DESCRIPCIÓN</th>
     </tr>
   </thead>
