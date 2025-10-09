@@ -3,11 +3,6 @@
 **Descripción:**  
 Esta tabla es **IMPORTANTE**, almacena todos los procedimiento que usa el OPE cuando se va se hacer una migración entre ambientes, cada <a href="index.html#/pages/component_type.md" target="_blank">tipo de componente</a> tiene una secuencia de procedimiento diferente.
 
-<div class="important">
-<b>NOTA IMPORTANTE:</b></br>
- Para ver la secuencia que tiene cada <a href="index.html#/pages/component_type.md" target="_blank">tipo de componente</a> observar la columa PROC migracion dentro de este  <a href="index.html#/pages/component_type.md" target="_blank">enlace</a>
-</div>
-
 ## Estructura de la tabla
 <table>
   <thead>
@@ -66,6 +61,8 @@ Esta tabla es **IMPORTANTE**, almacena todos los procedimiento que usa el OPE cu
 
 
 🔑 **Indica que el campo forma parte de la clave primaria (PK)**
+
+
 
 ## Observaciones
 
