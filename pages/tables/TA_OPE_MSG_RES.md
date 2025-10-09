@@ -34,10 +34,10 @@ Contiene todo el **RESUMEN.** del analisis y optimización de codigo hechas por 
 | 25 | **NU_DCTO_PERF_NLIN** | DECIMAL(5,2)     | Descuento aplicado por numero de linear para mensajes de tipo **PERFORMANCE**  |
 | 26 | **NU_DCTO_RWRI_NLIN** | DECIMAL(5,2)     | Descuento aplicado por numero de linear para mensajes de tipo **REPORT WRITER**  |
 | 27 | **NU_DCTO_CANC_NLIN** | DECIMAL(5,2)     | Descuento aplicado por numero de linear para mensajes de tipo **CANCELATORIOS**  |
-| 28 | **NU_SOUR_RECO**      | INTEGER          | lineas de programa? preguntar a angel.... |
-| 29 | **NU_PRDV_RECO**      | INTEGER          | preguntar a angel.... |
-| 30 | **NU_FACT_CMPX**      | INTEGER          | preguntar a angel.... |
-| 31 | **NU_PESO_TOTA**      | INTEGER          | preguntar a angel...., pense que el peso total, pero esta 0 |
+| 28 | **NU_SOUR_RECO**      | INTEGER          | N° de lineas que tiene el programa |
+| 29 | **NU_PRDV_RECO**      | INTEGER          | de sentencias ejecutables dentro de la **PROCEDURE DIVISION** ejem. MOVE, ADD, COMPUTE, IF, PERFORM, DISPLAY, STOP RUN. |
+| 30 | **NU_FACT_CMPX**      | INTEGER          | Metrica de complejidad del programa, calculada por el compilador. **IMPORTANTE** Cuanto mayor sea el numero, mas complejo y dificil de mantener se considera el programa. |
+| 31 | **NU_PESO_TOTA**      | INTEGER          | <a href="index.html#/pages/ope_msg_res_peso_total.md" target="_blank">El peso total de un programa</a>, esta dado por 5 caracteres, que solo pueden 0 o 1. Estos carcateres estan dado por las <a href="index.html#/pages/classification_msg.md" target="_blank">clasificaciones de mensajes</a> que existen al momento de compilar un programa.|
 | 32 | **NU_LIMI_INFO_BASE** | INTEGER          | Límite base de mensajes de tipo **INFORMATIVOS**, tomado del campo **NU_LIMI_INFO** en la tabla <a href="index.html#/pages/tables/TA_OPE_MSG_LIMI.md" target="_blank">TA_OPE_MSG_LIMI</a>, esto quiere decir que si en algun momento la configuración de limite cambia, estos valores se van a quedar como historicos. |
 | 33 | **NU_LIMI_WARN_BASE** | INTEGER          | Límite base de mensajes de tipo **WARNINGS**, tomado del campo **NU_LIMI_WARN** en la tabla <a href="index.html#/pages/tables/TA_OPE_MSG_LIMI.md" target="_blank">TA_OPE_MSG_LIMI</a>, esto quiere decir que si en algun momento la configuración de limite cambia, estos valores se van a quedar como historicos. |
 | 34 | **NU_LIMI_PERF_BASE** | INTEGER          | Límite base de mensajes de tipo **PERFORMANCE**, tomado del campo **NU_LIMI_PERF** en la tabla <a href="index.html#/pages/tables/TA_OPE_MSG_LIMI.md" target="_blank">TA_OPE_MSG_LIMI</a>, esto quiere decir que si en algun momento la configuración de limite cambia, estos valores se van a quedar como historicos. |
