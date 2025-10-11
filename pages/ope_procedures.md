@@ -11,16 +11,16 @@ Esta información describe a todos los procedimientos (JCL) que utiliza OPE y su
 |---|------------------|--------------|
 | 1 | **BACKUP** |Se usa para hacer backup  antes de hacer una migración, el objetivo es que si sale algo mal con la migración se pueda hacer un **ROLLBACK** con estos backups. **Nota** los backups pueden de ser uno o mas componentes, <a href="index.html#/pages/comp_backup.md" target="_blank">VER AQUI</a> que abarca cada backup.|
 | 2 | **COPDRA** |Copia los componentes de un PDS origen a un PDS destino, luego, borra los componentes en el origen, siempre y cuando la copia haya sido exitosa.|
-| 3 | **CPYBIND** | |
-| 4 | **DELSRC** | |
-| 5 | **OPEP001** |Validación de N° SRT del expediente vs N° de SRT del componente(s) dentro del expediente. confirmar con angel ...|
-| 6 | **OPEP002** | |
-| 7 | **OPEP003** | |
-| 8 | **OPEP004** | |
-| 9 | **OPEP005** | |
-| 10 | **OPEP006** | |
-| 11 | **OPEP007** | |
-| 12 | **OPEP010** | |
+| 3 | **CPYBIND** |Para programas que incluyen DB2, copia el plan de un ambiente origen hacia el ambiente destino. El plan copiado en el destino es personalizado|
+| 4 | **DELSRC** |Borra el componente de la libreria PDS fuente de la que se está migrando, vale decir, que solo borra alguno tipos de componentes como son: **COPYBOOK,PROGRAMAS,PROCEDIMIENTO**. Esta eliminación se hace para evitar tener las fuentes duplicadas en ambos entornos. **NOTA** hay agunos componentes que no son eliminados y se mantienen en la libreria fuente estos son: **PARAMETROS,JCL,PLAN DB2** estos componentes si deben estar en todos los ambientes.|
+| 5 | **OPEP001** |Validación de N° SRT del expediente vs N° de SRT del componente(s) dentro del expediente. Este procedimiento trabaja directamente con el programa **OPEB011** que lo que hace es validar la **NOMENCLATURA DE PROGRAMAS**. <a href="../assets/docs/ope_validador_estandares_ajuste_220816_v1.docx" download="ope_validador_estandares_ajuste_220816_v1.docx"> Ver estandares de nomenclatura</a>|
+| 6 | **OPEP002** |Validación de N° SRT del expediente vs N° de SRT del componente(s) dentro del expediente. Este procedimiento trabaja directamente con el programa **OPEB012** que lo que hace es validar la **NOMENCLATURA DE PROCEDIMIENTOS**. <a href="../assets/docs/ope_validador_estandares_ajuste_220816_v1.docx" download="ope_validador_estandares_ajuste_220816_v1.docx"> Ver estandares de nomenclatura</a>|
+| 7 | **OPEP003** |Validación de N° SRT del expediente vs N° de SRT del componente(s) dentro del expediente. Este procedimiento trabaja directamente con el programa **OPEB003** que lo que hace es validar la **NOMENCLATURA DE MAPAS**. <a href="../assets/docs/ope_validador_estandares_ajuste_220816_v1.docx" download="ope_validador_estandares_ajuste_220816_v1.docx"> Ver estandares de nomenclatura</a>|
+| 8 | **OPEP004** |Validación de N° SRT del expediente vs N° de SRT del componente(s) dentro del expediente. Este procedimiento trabaja directamente con el programa **OPEB004** que lo que hace es validar la **NOMENCLATURA DE COPYS**. <a href="../assets/docs/ope_validador_estandares_ajuste_220816_v1.docx" download="ope_validador_estandares_ajuste_220816_v1.docx"> Ver estandares de nomenclatura</a>|
+| 9 | **OPEP005** |Validación de N° SRT del expediente vs N° de SRT del componente(s) dentro del expediente. Este procedimiento trabaja directamente con el programa **OPEB005** que lo que hace es validar la **NOMENCLATURA DE PARAMETROS**. <a href="../assets/docs/ope_validador_estandares_ajuste_220816_v1.docx" download="ope_validador_estandares_ajuste_220816_v1.docx"> Ver estandares de nomenclatura</a>|
+| 10 | **OPEP006** |Validación de N° SRT del expediente vs N° de SRT del componente(s) dentro del expediente. Este procedimiento trabaja directamente con el programa **OPEB006** que lo que hace es validar la **NOMENCLATURA DE JCL**. <a href="../assets/docs/ope_validador_estandares_ajuste_220816_v1.docx" download="ope_validador_estandares_ajuste_220816_v1.docx"> Ver estandares de nomenclatura</a>|
+| 11 | **OPEP007** |Solo aplica cuando se esta migrando JCL, genera un JOB que envia a INTRDR para actualizar las librerias destino con las variables que le corresponden. <a href="../assets/docs/ope_validador_estandares_ajuste_220816_v1.docx" download="ope_validador_estandares_ajuste_220816_v1.docx"> Ver estandares de nomenclatura</a> en el apartado **Reglas de Customización Automática de JCL**. **Nota** esta customización se entre la libreria  *.LIB.JCL sobre *.LIB.JOB|
+| 12 | **OPEP010** |Actualiza a los <a href="index.html#/pages/component_type.md" target="_blank">tipos de componente</a> **003** que corresponde a parametros, se le asigna el prefijo correspondinte al entorno destino. |
 | 13 | **OPEP011** |se usar para **subir(ADD)** o **bajar(RETRIEVE)** codigo fuente de un determiando <a href="index.html#/pages/proc_env.md" target="_blank">entorno</a> |
 | 14 | **OPEP012** |Actualiza el estado del expediente (TABLA <a href="index.html#/pages/tables/TA_OPE_EXPD.md" target="_blank">TA_OPE_EXPD</a>) al final de cada migración|
 | 15 | **OPEP014** | |
