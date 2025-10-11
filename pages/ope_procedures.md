@@ -9,7 +9,7 @@ Esta información describe a todos los procedimientos (JCL) que utiliza OPE y su
 
 | # | **PROC** | Que Hace? |
 |---|------------------|--------------|
-| 1 | **BACKUP** | |
+| 1 | **BACKUP** |Se usa para hacer backup  antes de hacer una migración, el objetivo es que si sale algo mal con la migración se pueda hacer un **ROLLBACK** con estos backups. **Nota** los backups pueden de ser uno o mas componentes, <a href="index.html#/pages/comp_backup.md" target="_blank">VER AQUI</a> que abarca cada backup.|
 | 2 | **COPDRA** |Copia los componentes de un PDS origen a un PDS destino, luego, borra los componentes en el origen, siempre y cuando la copia haya sido exitosa.|
 | 3 | **CPYBIND** | |
 | 4 | **DELSRC** | |

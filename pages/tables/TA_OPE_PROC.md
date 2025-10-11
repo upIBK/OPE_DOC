@@ -3,6 +3,8 @@
 **Descripción:**  
 Esta tabla es **IMPORTANTE**, almacena todos los procedimiento que usa el OPE cuando se va se hacer una migración entre ambientes, cada <a href="index.html#/pages/component_type.md" target="_blank">tipo de componente</a> tiene una secuencia de procedimiento diferente.
 
+
+
 ## Estructura de la tabla
 <table>
   <thead>
